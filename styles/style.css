@@ -25,6 +25,9 @@ body{
 .btn3{
     background: rgb(255, 194, 57);
 }
+.text-decoration{
+    font-family: Fira Sans;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -186,10 +189,199 @@ body{
     align-items: center;
     padding: 48px 24px;
 }
-#vision-message .vision-message .vision-content{
+.vision-content{
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
 }
 .vision-content .sub-title{
     margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    padding-top: 25px;
+}
+.vision-content .title-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.vision .end-sub{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 14px;
+    font-weight: 300;
+}
+#opinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#opinion .opinion{
+    width: 1088px;
+    height: auto;
+    margin-bottom: 80px;
+}
+.opinion .opinion-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.opinion .opinion-container{
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+}
+table{
+    border-collapse: collapse
+}
+td,th{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+ .opinion-container th{
+    text-align: left;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+.opinion-container select{
+    width: 152px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+}
+#news{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+#news .news-container{
+    width: 1088px;
+    height: auto;
+    margin-bottom: 80px;
+}
+.news-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.news-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.news-box{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    border-radius: 24px;
+    margin-bottom: 24px
+}
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+.news-image > img{
+    border-radius: 24px;
+}
+.content-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.news-content img{
+    margin-bottom: 12px;
+}
+.t-d{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.content-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.news-content > button{
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin-top: 32px;
+}
+#final-section{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 80px;
+}
+.final-title{
+    text-align: center;
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.final-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.final-cardbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.final-card{
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.final-card > h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+#final-section > input{
+    width: 1032px;
+    padding: 20px 40px;
+    margin-left: 25px;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+.final-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final-btn > button{
+    padding: 17px 34px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
 }
