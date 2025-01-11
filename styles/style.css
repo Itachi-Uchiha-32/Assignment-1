@@ -7,11 +7,29 @@ body{
     font-family: Fira Sans;
     background: rgb(245, 245, 245);
 }
+.color1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.color2{
+    background: rgb(198, 228, 214);
+}
+.color3{
+    background: rgb(247, 235, 207);
+}
+.btn1{
+    background: rgb(84, 144, 245);
+}
+.btn2{
+    background: rgb(9, 161, 92);
+}
+.btn3{
+    background: rgb(255, 194, 57);
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 160px;
+    margin: 30px 135px;
 }
 .btn{
     padding: 15px 30px;
@@ -20,4 +38,158 @@ body{
     font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-box{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1088px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.banner-content .title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 18px;
+    font-weight: 490;
+    margin-bottom: 14px;
+}
+.banner-content .desc{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 685;
+}
+.banner-content .banner-btn{
+    padding: 17px 34px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 510;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card .card-section{
+    width: 1088px;
+    height: 324px;
+    margin-bottom: 80px;
+}.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-weight: 595;
+    margin-bottom: 32px;
+}
+.card-box{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: white;
+    width: 256px;
+    height: 213px;
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.card .card-title{
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+#vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vision .card-sec{
+    width: 1088px;
+    margin-bottom: 32px;
+}
+.seconday-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 685;
+    margin-bottom: 24px;
+}
+.secondary-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.secondary-container{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.secondary-card{
+    width: 349px;
+    height: 325px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.secondary-card .sec-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.secondary-card .sec-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.sec-btn{
+    padding: 12px;
+    width: 122px;
+    height: 41px;
+    align-self: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+#vision-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vision-message .vision-message{
+    width: 1088px;
+    height: 256px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 24px;
+}
+#vision-message .vision-message .vision-content{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.vision-content .sub-title{
+    margin-bottom: 12px;
 }
